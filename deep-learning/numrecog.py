@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load and preprocess data
-data = pd.read_csv('/Users/muzarttuman/Downloads/digit-recognizer/train.csv').values
+data = pd.read_csv('../data/train.csv').values
 X = data[:, 1:] / 255.0  # Normalize pixel values
 Y = data[:, 0]
 
